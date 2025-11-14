@@ -24,7 +24,7 @@
 	padding: 8px 16px;
 	margin-right: -1px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
-	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
 	transition: all 0.1s ease-in-out;
 }
 
@@ -32,9 +32,11 @@
 	cursor: pointer;
 }
 
+
 .switch-field input:checked + label {
-	background-color: #a5dc86;
-	box-shadow: none;
+    background-color: #2E3A45;
+	color: white; 
+    box-shadow: none;
 }
 
 .switch-field label:first-of-type {
@@ -57,8 +59,28 @@
 
 h2 {
 	font-size: 18px;
-	margin-bottom: 8px;
+	margin-bottom: 6px;
 }
+
+
+.page-title {
+    position: absolute;
+    top: 2.5px;                     
+    left: 50%;
+    transform: translateX(-50%);
+
+    text-align: center;
+    font-size: 26px;              
+    font-weight: 600;
+    color: white;
+
+    background: rgba(0, 0, 0, 0.5);
+    padding: 8px 20px;             
+    border-radius: 6px;
+    white-space: nowrap;
+    z-index: 1000;
+}
+
 .area{
   font-family: "Roboto", sans-serif;
   outline: 0;
@@ -71,6 +93,7 @@ h2 {
   font-size: 15px;
   height: 35px;
   border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
 }
 
 .location{
@@ -87,27 +110,41 @@ h2 {
   border-radius: 5px;
 }
 
-.submit{
-  background: #a5dc86;
-  width: 76%;
-  border: 0;
-  margin: 25px 0 10px;
-  box-sizing: border-box;
-  font-size: 15px;
-	height: 35px;
-	text-align: center;
-	border-radius: 5px;
+
+.submit {
+    background: #2E3A45;
+    width: 76%;
+    border: 0;
+    margin: 15px 0 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    transition: background 0.2s ease-in-out;
 }
 
-.result{
-		background: #dcd686;
-		width: 76%;
-		border: 0;
-		margin: 25px 0 10px;
-		box-sizing: border-box;
-		font-size: 15px;
-		height: 35px;
-		text-align: center;
+.submit:hover {
+    background: #1F2A33;
+    cursor: pointer;
+}
+
+
+.result {
+    background: rgba(0, 0, 0, 0.5);   /* same as title */
+    width: 76%;
+    margin: 5px 0 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+
+    padding: 10px 0;       /* ✔ adds space so text fits nicely */
+    min-height: 35px;      /* ✔ keeps original look but allows expansion */
+    height: auto;          /* ✔ lets the box grow as needed */
 }
 
 .img {
@@ -128,6 +165,11 @@ h2 {
   z-index: -1;
 }
 
+/* body, html {
+  height: 100%;
+} */
+
 body, html {
   height: 100%;
+  padding-top: 25px;   /* pushes the form down so title doesn't overlap */
 }
