@@ -1,6 +1,8 @@
 <!-- Project Title -->
 # <div align="center">Bangalore House Price Prediction</div>
 
+<!-- Intro_image -->
+<img src="https://github.com/rishav197/Bangalore-House-Price-Prediction/blob/main/intro-image-and-predictions/BHP_Intro.png" alt="figure0_img" width="800"/>
 
 ## Business Problem :
 
