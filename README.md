@@ -15,6 +15,7 @@ The goal is to build a machine learning model that predicts house prices in Bang
 
 ## Dataset :
 
+**Bengaluru House Price Data :** [Download Dataset](https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data)
 
 ## EDA and Data Preprocessing : 
 
