@@ -36,16 +36,19 @@ Identified and filled/removed missing entries to ensure clean and reliable data 
 Since the dataset contains many unique locations, similar or rare locations were grouped/reduced to avoid high dimensionality and improve model performance.
 
 **Removing Outliers Using Domain Knowledge :**
->Properties with unrealistic square footage per BHK (e.g., less than 300 sqft per bedroom) were flagged as invalid and removed.
+- Properties with unrealistic square footage per BHK (e.g., less than 300 sqft per bedroom) were flagged as invalid and removed.
 
->This ensures we only keep properties that align with realistic housing standards (e.g., a 2 BHK should be at least ~600 sqft).
+- This ensures we only keep properties that align with realistic housing standards (e.g., a 2 BHK should be at least ~600 sqft).
 
 **Removing Inconsistent Pricing Within Each Location :**
->For each location, price-per-square-foot statistics were computed for every BHK category.
+- For each location, price-per-square-foot statistics were computed for every BHK category.
 
->Properties whose pricing contradicted typical patterns (e.g., a 3 BHK cheaper per sqft than a 2 BHK in the same location) were removed as inconsistent data points.
+- Properties whose pricing contradicted typical patterns (e.g., a 3 BHK cheaper per sqft than a 2 BHK in the same location) were removed as inconsistent data points.
 
-
+- Hello
+    - How 
+        * are
+            + you?
 
 
 
