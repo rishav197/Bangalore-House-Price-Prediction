@@ -83,7 +83,7 @@ To predict house prices in Bangalore, multiple machine learning models were trai
 
 ## Conclusion :
 
-In this project, we analyzed the Bengaluru housing dataset to understand the factors influencing house prices, such as location, total sqft, number of BHKs, and bathrooms. After performing data cleaning, handling missing values, and removing outliers, we trained multiple machine learning models including Linear Regression, Lasso Regression, and Decision Tree Regressor. Based on evaluation metrics, Linear Regression emerged as the best model, achieving MAE = 18.58, RMSE = 34.81, and R² = 0.845, providing the most accurate and stable predictions. This model can help buyers assess affordability and assist sellers in setting competitive, data-driven property prices in Bangalore.
+In this project, we analyzed the Bengaluru housing dataset to understand the factors influencing house prices, such as location, total sqft, number of BHKs, and bathrooms. After performing data cleaning, handling missing values, and removing outliers, we trained multiple machine learning models including Linear Regression, Lasso Regression, and Decision Tree Regressor. Based on evaluation metrics, Linear Regression emerged as the best model, achieving R² score = 0.845, providing the most accurate and stable predictions. This model can help buyers assess affordability and assist sellers in setting competitive, data-driven property prices in Bangalore.
 
 
 
