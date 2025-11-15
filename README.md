@@ -29,7 +29,7 @@ Price: Price of the property (dependent variable)
 
 ## EDA and Data Preprocessing : 
 
-- **Handling Missing Values :**
+### **Handling Missing Values :**
 Identified and filled/removed missing entries to ensure clean and reliable data for training.
 
 **Processing Location Feature(Categorical) :** 
