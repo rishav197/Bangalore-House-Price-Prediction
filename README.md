@@ -66,5 +66,24 @@ To predict house prices in Bangalore, multiple machine learning models were trai
 
 ## Model Evaluations and Predictions : 
 
+![model performances](https://github.com/rishav197/Bangalore-House-Price-Prediction/blob/main/model/model_performances.png)
+> Based on the evaluation metrics, Linear Regression clearly performs the best among all models, providing the lowest error values and the highest R² score. This makes it the most accurate and stable model for predicting house prices in Bangalore. 
+
+
+
+### Predictions :
+> sample_input1 = { 'location': '1st Phase JP Nagar', 'sqft': 1000,  'bhk': 2, 'bath': 2}
+>![sample_input data](https://github.com/rishav197/Telecom-Customer-Churn-Analysis-and-Prediction/blob/main/plots-and-images/example_input.jpg)
+
+
+>sample_input2 = { 'location': 'Indira Nagar', 'sqft': 1000,  'bhk': 3, 'bath': 3}
+>![sample_input data](https://github.com/rishav197/Telecom-Customer-Churn-Analysis-and-Prediction/blob/main/plots-and-images/example_input.jpg)
+
+
+
+## Conclusion :
+
+In this project, we analyzed the Bengaluru housing dataset to understand the factors influencing house prices, such as location, total sqft, number of BHKs, and bathrooms. After performing data cleaning, handling missing values, and removing outliers, we trained multiple machine learning models including Linear Regression, Lasso Regression, and Decision Tree Regressor. Based on evaluation metrics, Linear Regression emerged as the best model, achieving MAE = 18.58, RMSE = 34.81, and R² = 0.845, providing the most accurate and stable predictions. This model can help buyers assess affordability and assist sellers in setting competitive, data-driven property prices in Bangalore.
+
 
 
