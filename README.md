@@ -74,12 +74,12 @@ To predict house prices in Bangalore, multiple machine learning models were trai
 
 
 ### Predictions :
-> sample_input1 = { 'location': '1st Phase JP Nagar', 'sqft': 1000,  'bhk': 2, 'bath': 2}
->![sample_input data](https://github.com/rishav197/Telecom-Customer-Churn-Analysis-and-Prediction/blob/main/plots-and-images/example_input.jpg)
+sample_input1 = { 'location': '1st Phase JP Nagar', 'sqft': 1000,  'bhk': 2, 'bath': 2}
+>![sample_output1](https://github.com/rishav197/Bangalore-House-Price-Prediction/blob/main/intro-image-and-predictions/sample_output1.png)
 
 
->sample_input2 = { 'location': 'Indira Nagar', 'sqft': 1000,  'bhk': 3, 'bath': 3}
->![sample_input data](https://github.com/rishav197/Telecom-Customer-Churn-Analysis-and-Prediction/blob/main/plots-and-images/example_input.jpg)
+sample_input2 = { 'location': 'Indira Nagar', 'sqft': 1000,  'bhk': 3, 'bath': 3}
+>![sample_output2](https://github.com/rishav197/Bangalore-House-Price-Prediction/blob/main/intro-image-and-predictions/sample_output2.png)
 
 
 
